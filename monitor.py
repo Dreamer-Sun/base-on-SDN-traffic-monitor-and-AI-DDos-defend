@@ -44,11 +44,11 @@ class Monitor(simple_switch_13.SimpleSwitch13):   #继承simple_switch_13的功�
 
 	#对交换机发送请求,获取终端信息
 	def _monitor(self):
-		while True:			#对已注册交换机发出统计信息获取请求每5秒无限地重复一次
+		while True:			#对已注册交换机发出统计信息获取请求每2秒无限地重复一次
 			for dp in self.datapaths.values():
 				self._request_stats(dp)
 				self.monitor_info.setdefault(dp.id, [])
-			hub.sleep(5)
+			hub.sleep(1)
 
 	def _request_stats(self, datapath):
 		self.logger.debug('send stats request: %016x', datapath.id)
