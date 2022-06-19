@@ -26,7 +26,7 @@ def main():
 	# print("lastdata", lastdata)
 	# print("lastdatas", lastdata["接收数据包数(个)"].item())
 	# creating a single-element container.
-	lasttime = time.strftime('%Y-%m-%d %H:%M', time.localtime(time.time()))
+	lasttime = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
 	lastoption1 = option1
 	lastoption2 = option2
 	placeholder = st.empty()
@@ -39,8 +39,8 @@ def main():
 		df = GetDataFrame()
 		with placeholder.container():
 			st.caption('上一次更新时间:' + lasttime)
-			st.caption('当前更新时间:' + time.strftime('%Y-%m-%d %H:%M', time.localtime(time.time())))	
-			lasttime = time.strftime('%Y-%m-%d %H:%M', time.localtime(time.time()))
+			st.caption('当前更新时间:' + time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())))	
+			lasttime = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
 			
 			# 监控端口
 			st.markdown("### 单独监控")
