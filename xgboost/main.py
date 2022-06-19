@@ -280,12 +280,12 @@ def TrainModel():
 if __name__ == '__main__':
     # TrainModel()
     # OutputCsv(df, y_pred)
-    OutputCsv2("./MachineLearningCVE/Friday-16-02-2018_TrafficForML_CICFlowMeter.csv", "Friday-16-02-2018_TrafficForML_CICFlowMeter_Pre.csv") # 不是这个
-    OutputCsv2("./MachineLearningCVE/Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv", "Wednesday-21-02-2018_TrafficForML_CICFlowMeter_Pre.csv")
-    OutputCsv2("./MachineLearningCVE/Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv", "Thursday-15-02-2018_TrafficForML_CICFlowMeter_Pre.csv")
+    # OutputCsv2("./MachineLearningCVE/Friday-16-02-2018_TrafficForML_CICFlowMeter.csv", "Friday-16-02-2018_TrafficForML_CICFlowMeter_Pre.csv") # 不是这个
+    # OutputCsv2("./MachineLearningCVE/Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv", "Wednesday-21-02-2018_TrafficForML_CICFlowMeter_Pre.csv")
+    # OutputCsv2("./MachineLearningCVE/Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv", "Thursday-15-02-2018_TrafficForML_CICFlowMeter_Pre.csv")
     # OutputCsv2("./MachineLearningCVE/Friday-16-02-2018_TrafficForML_CICFlowMeter.csv", "Friday-16-02-2018_TrafficForML_CICFlowMeter_Pre.csv") # 奇怪的问题
-    TestPre("./MachineLearningCVE/Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv")
-    TestPre("./MachineLearningCVE/Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv")
-    TestPre("./MachineLearningCVE/Friday-16-02-2018_TrafficForML_CICFlowMeter.csv")
+    # TestPre("./MachineLearningCVE/Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv")
+    # TestPre("./MachineLearningCVE/Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv")
+    # TestPre("./MachineLearningCVE/Friday-16-02-2018_TrafficForML_CICFlowMeter.csv")
 
 
